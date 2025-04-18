@@ -1,0 +1,160 @@
+2025-03-24 17:13:21.9983 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-24 17:13:22.0108 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-24 17:13:22.0181 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-24 17:13:22.0181 Info Configuration initialized.
+2025-03-24 17:14:26.4085 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-24 17:14:26.4190 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-24 17:14:26.4276 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-24 17:14:26.4276 Info Configuration initialized.
+2025-03-24 17:16:53.7729 Info AppDomain Shutting down. LogFactory closing...
+2025-03-24 17:16:53.7814 Info LogFactory has been closed.
+2025-03-28 09:49:27.8673 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-28 09:49:27.8761 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-28 09:49:27.8761 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-28 09:49:27.8913 Info Configuration initialized.
+2025-03-28 09:55:30.1603 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-28 09:55:30.1603 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-28 09:55:30.1760 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-28 09:55:30.1840 Info Configuration initialized.
+2025-03-28 09:57:52.8820 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-28 09:57:52.8900 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-28 09:57:52.8900 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-28 09:57:52.9042 Info Configuration initialized.
+2025-03-29 16:59:25.6503 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-29 16:59:25.6595 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-29 16:59:25.6595 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-29 16:59:25.6751 Info Configuration initialized.
+2025-03-29 18:10:53.1088 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-29 18:10:53.1175 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-29 18:10:53.1238 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-29 18:10:53.1238 Info Configuration initialized.
+2025-03-29 18:12:23.5829 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-29 18:12:23.5908 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-29 18:12:23.5908 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-29 18:12:23.6042 Info Configuration initialized.
+2025-03-29 18:15:24.2759 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-29 18:15:24.2838 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-29 18:15:24.2838 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-29 18:15:24.2838 Info Configuration initialized.
+2025-03-30 13:02:25.0545 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-30 13:02:25.0628 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-30 13:02:25.0628 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-30 13:02:25.0766 Info Configuration initialized.
+2025-03-30 13:04:24.5551 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-30 13:04:24.5633 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-30 13:04:24.5633 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-30 13:04:24.5771 Info Configuration initialized.
+2025-03-30 13:21:50.2232 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-30 13:21:50.2316 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-30 13:21:50.2316 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-30 13:21:50.2460 Info Configuration initialized.
+2025-03-30 13:22:23.9213 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-30 13:22:23.9213 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-30 13:22:23.9374 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-30 13:22:23.9374 Info Configuration initialized.
+2025-03-30 13:23:17.0385 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-30 13:23:17.0385 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-30 13:23:17.0549 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-30 13:23:17.0623 Info Configuration initialized.
+2025-03-30 13:41:41.8757 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-30 13:41:41.8891 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-30 13:41:41.8891 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-30 13:41:41.9090 Info Configuration initialized.
+2025-03-30 13:41:54.6120 Info AppDomain Shutting down. LogFactory closing...
+2025-03-30 13:41:54.6120 Info LogFactory has been closed.
+2025-03-30 13:42:21.1388 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-03-30 13:42:21.1388 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-03-30 13:42:21.1570 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-03-30 13:42:21.1685 Info Configuration initialized.
+2025-04-07 13:43:22.1729 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 13:43:22.1846 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 13:43:22.1846 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 13:43:22.1846 Info Configuration initialized.
+2025-04-07 14:14:44.9838 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 14:14:44.9934 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 14:14:44.9934 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 14:14:44.9934 Info Configuration initialized.
+2025-04-07 14:19:33.0226 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 14:19:33.0422 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 14:19:33.0499 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 14:19:33.0614 Info Configuration initialized.
+2025-04-07 14:34:50.8137 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 14:34:50.8224 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 14:34:50.8224 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 14:34:50.8380 Info Configuration initialized.
+2025-04-07 14:40:02.8539 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 14:40:02.8539 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 14:40:02.8687 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 14:40:02.8687 Info Configuration initialized.
+2025-04-07 15:22:38.4768 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 15:22:38.4768 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 15:22:38.4931 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 15:22:38.4931 Info Configuration initialized.
+2025-04-07 15:25:46.7332 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 15:25:46.7417 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 15:25:46.7417 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 15:25:46.7557 Info Configuration initialized.
+2025-04-07 15:26:28.7293 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 15:26:28.7293 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 15:26:28.7293 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 15:26:28.7523 Info Configuration initialized.
+2025-04-07 15:27:44.0818 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 15:27:44.0818 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 15:27:44.0970 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 15:27:44.0970 Info Configuration initialized.
+2025-04-07 15:29:26.2499 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-07 15:29:26.2581 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-07 15:29:26.2581 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-07 15:29:26.2714 Info Configuration initialized.
+2025-04-10 15:18:22.1166 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-10 15:18:22.1252 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-10 15:18:22.1252 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-10 15:18:22.1390 Info Configuration initialized.
+2025-04-16 19:04:27.6524 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:04:27.6657 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:04:27.6758 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:04:27.6862 Info Configuration initialized.
+2025-04-16 19:06:59.8765 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:06:59.8935 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:06:59.9113 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:06:59.9271 Info Configuration initialized.
+2025-04-16 19:17:18.3843 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:17:18.3950 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:17:18.3950 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:17:18.4147 Info Configuration initialized.
+2025-04-16 19:18:37.0727 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:18:37.0840 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:18:37.0933 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:18:37.0933 Info Configuration initialized.
+2025-04-16 19:21:27.8951 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:21:27.9109 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:21:27.9205 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:21:27.9205 Info Configuration initialized.
+2025-04-16 19:35:48.8043 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:35:48.8194 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:35:48.8318 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:35:48.8443 Info Configuration initialized.
+2025-04-16 19:36:36.9583 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:36:36.9746 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:36:36.9865 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:36:36.9998 Info Configuration initialized.
+2025-04-16 19:40:13.7465 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:40:13.7604 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:40:13.7713 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:40:13.7832 Info Configuration initialized.
+2025-04-16 19:41:44.5476 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:41:44.5585 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:41:44.5585 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:41:44.5782 Info Configuration initialized.
+2025-04-16 19:45:47.8835 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:45:47.8950 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:45:47.9062 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:45:47.9062 Info Configuration initialized.
+2025-04-16 19:47:25.8936 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-16 19:47:25.9046 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-16 19:47:25.9046 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-16 19:47:25.9234 Info Configuration initialized.
+2025-04-17 09:33:18.7292 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-04-17 09:33:18.7437 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-04-17 09:33:18.7543 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\suley\Documents\projects\BookStore\WebApi\nlog.config
+2025-04-17 09:33:18.7667 Info Configuration initialized.

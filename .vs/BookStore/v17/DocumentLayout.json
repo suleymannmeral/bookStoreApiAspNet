@@ -1,0 +1,604 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\suley\\Documents\\projects\\BookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\concrete\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\concrete\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\contracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\contracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\utilities\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\utilities\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\exceptions\\booknotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\exceptions\\booknotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\datatransferobjects\\bookdtoformanipulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\datatransferobjects\\bookdtoformanipulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\datatransferobjects\\bookdtoforupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\datatransferobjects\\bookdtoforupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\datatransferobjects\\bookdtoforinsertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\datatransferobjects\\bookdtoforinsertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\datatransferobjects\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\datatransferobjects\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|solutionrelative:presentation\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\contracts\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\contracts\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\contracts\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\errormodel\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\errormodel\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\concrete\\loggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\concrete\\loggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\utilities\\formatters\\csvoutputformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\utilities\\formatters\\csvoutputformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\efcore\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\extensions\\imvcbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\extensions\\imvcbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\efcore\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\contracts\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\efcore\\config\\bookconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\config\\bookconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\migrations\\repositorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\repositorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\migrations\\20250324110132_startpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\20250324110132_startpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T08:19:11.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\IBookService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IBookService.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\IBookService.cs",
+              "RelativeToolTip": "Services\\Contracts\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T13:41:14.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookManager.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\BookManager.cs",
+              "RelativeDocumentMoniker": "Services\\BookManager.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\BookManager.cs",
+              "RelativeToolTip": "Services\\BookManager.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T14:06:17.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BookDtoForUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\BookDtoForUpdate.cs",
+              "RelativeDocumentMoniker": "Entities\\DataTransferObjects\\BookDtoForUpdate.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\BookDtoForUpdate.cs",
+              "RelativeToolTip": "Entities\\DataTransferObjects\\BookDtoForUpdate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:27:12.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "RelativeToolTip": "WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T08:46:11.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\IServiceManager.cs",
+              "RelativeToolTip": "Services\\Contracts\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T06:47:40.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Concrete\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\Concrete\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Concrete\\ServiceManager.cs",
+              "RelativeToolTip": "Services\\Concrete\\ServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:05:01.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookDtoForManipulation.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\BookDtoForManipulation.cs",
+              "RelativeDocumentMoniker": "Entities\\DataTransferObjects\\BookDtoForManipulation.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\BookDtoForManipulation.cs",
+              "RelativeToolTip": "Entities\\DataTransferObjects\\BookDtoForManipulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:23:10.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Exceptions\\BookNotFoundException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\BookNotFoundException.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Exceptions\\BookNotFoundException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\BookNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T14:55:16.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswDIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:04:52.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookDtoForInsertion.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\BookDtoForInsertion.cs",
+              "RelativeDocumentMoniker": "Entities\\DataTransferObjects\\BookDtoForInsertion.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\BookDtoForInsertion.cs",
+              "RelativeToolTip": "Entities\\DataTransferObjects\\BookDtoForInsertion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:37:47.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:36:28.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Entities\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "Entities\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T14:02:59.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "Presentation\\AssemblyReference.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\AssemblyReference.cs",
+              "RelativeToolTip": "Presentation\\AssemblyReference.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:06:48.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\BookDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DataTransferObjects\\BookDto.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\BookDto.cs",
+              "RelativeToolTip": "Entities\\DataTransferObjects\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:25:03.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Models\\Book.cs",
+              "RelativeToolTip": "Entities\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T12:47:44.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ILoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\ILoggerService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\ILoggerService.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\ILoggerService.cs",
+              "RelativeToolTip": "Services\\Contracts\\ILoggerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T13:35:08.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RepositoryContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\ContextFactory\\RepositoryContextFactory.cs",
+              "RelativeDocumentMoniker": "WebApi\\ContextFactory\\RepositoryContextFactory.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\ContextFactory\\RepositoryContextFactory.cs",
+              "RelativeToolTip": "WebApi\\ContextFactory\\RepositoryContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:51:15.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\Contracts\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\Contracts\\IBookRepository.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:06:09.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExceptionMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "WebApi\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "RelativeToolTip": "WebApi\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T06:23:11.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorDetails.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\ErrorModel\\ErrorDetails.cs",
+              "RelativeDocumentMoniker": "Entities\\ErrorModel\\ErrorDetails.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\ErrorModel\\ErrorDetails.cs",
+              "RelativeToolTip": "Entities\\ErrorModel\\ErrorDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T06:19:21.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoggerManager.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Concrete\\LoggerManager.cs",
+              "RelativeDocumentMoniker": "Services\\Concrete\\LoggerManager.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Concrete\\LoggerManager.cs",
+              "RelativeToolTip": "Services\\Concrete\\LoggerManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T13:41:39.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CsvOutputFormatter.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Utilities\\Formatters\\CsvOutputFormatter.cs",
+              "RelativeDocumentMoniker": "WebApi\\Utilities\\Formatters\\CsvOutputFormatter.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Utilities\\Formatters\\CsvOutputFormatter.cs",
+              "RelativeToolTip": "WebApi\\Utilities\\Formatters\\CsvOutputFormatter.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:42:28.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\BookRepository.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\BookRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:06:40.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\Contracts\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\Contracts\\IRepositoryBase.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\IRepositoryBase.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:06:10.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ServicesExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\ServicesExtensions.cs",
+              "RelativeDocumentMoniker": "WebApi\\Extensions\\ServicesExtensions.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\ServicesExtensions.cs",
+              "RelativeToolTip": "WebApi\\Extensions\\ServicesExtensions.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T10:48:25.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IMvcBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\IMvcBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "WebApi\\Extensions\\IMvcBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\IMvcBuilderExtensions.cs",
+              "RelativeToolTip": "WebApi\\Extensions\\IMvcBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T12:18:36.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\RepositoryManager.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\RepositoryManager.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\RepositoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T13:59:26.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IRepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\Contracts\\IRepositoryManager.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\IRepositoryManager.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\Contracts\\IRepositoryManager.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\IRepositoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:06:23.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\RepositoryContext.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\RepositoryContext.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\RepositoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T14:18:41.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "nlog.config",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\nlog.config",
+              "RelativeDocumentMoniker": "WebApi\\nlog.config",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\nlog.config",
+              "RelativeToolTip": "WebApi\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-24T13:51:10.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BookConfig.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\Config\\BookConfig.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\Config\\BookConfig.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\Config\\BookConfig.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\Config\\BookConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:04:01.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RepositoryContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WebApi\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "RelativeToolTip": "WebApi\\Migrations\\RepositoryContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:03:40.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250324110132_startPoint.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Migrations\\20250324110132_startPoint.cs",
+              "RelativeDocumentMoniker": "WebApi\\Migrations\\20250324110132_startPoint.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Migrations\\20250324110132_startPoint.cs",
+              "RelativeToolTip": "WebApi\\Migrations\\20250324110132_startPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:01:32.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T10:48:28.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-24T10:48:19.801Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
