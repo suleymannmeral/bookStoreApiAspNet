@@ -1,14 +1,7 @@
 ﻿using Entities.DataTransferObjects;
-using Entities.Exceptions;
-using Entities.Models;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Presentation.Controllers
 {
@@ -29,8 +22,6 @@ namespace Presentation.Controllers
         {
                 var books = _manager.BookService.GetAllBooks(false);  // değişiklikleri izlemezsek ef core da artıs meydana gelir
                 return Ok(books);          
-
-
         }
 
         //GetOneBook
@@ -52,7 +43,7 @@ namespace Presentation.Controllers
 
 
             if (!ModelState.IsValid)
-                return UnprocessableEntity(ModelState);
+                return UnprocessableEntity(ModelState);  
 
             var book =_manager.BookService.CreateBook(bookDto);
 
@@ -73,6 +64,7 @@ namespace Presentation.Controllers
                 return UnprocessableEntity(ModelState);
 
                 _manager.BookService.UpdateOneBook(id, bookDto, false);
+
                 return NoContent();
         }
 
@@ -92,25 +84,25 @@ namespace Presentation.Controllers
                 return NoContent();           
         }
 
-        //PatchBook
+     
         [HttpPatch("{id:int}")]
-        public IActionResult PartiallyUpdate([FromRoute(Name = "id")] int id, JsonPatchDocument<BookDto> bookPatch)
+        public IActionResult PartiallyUpdate([FromRoute(Name = "id")] int id, JsonPatchDocument<BookDtoForUpdate> bookPatch)
         {
-            
-                var bookDto = _manager
-                    .BookService
-                    .GetOneBookById(id, true);
+            if (bookPatch is null)
+                return BadRequest();//400
 
-                bookPatch.ApplyTo(bookDto,ModelState);
-            _manager.BookService.UpdateOneBook(id,
-                new BookDtoForUpdate()
-                {
-                    Id = bookDto.Id,
-                    Title = bookDto.Title,
-                    Price = bookDto.Price
-                },
-                true);
-                return NoContent();
+            var result = _manager.BookService.GetOneBookForPatch(id, false);
+
+            bookPatch.ApplyTo(result.bookDtoForUpdate, ModelState);
+
+            TryValidateModel(result.bookDtoForUpdate);
+
+            if (!ModelState.IsValid)
+                return UnprocessableEntity(ModelState);
+
+            _manager.BookService.SaveChangesForPatch(result.bookDtoForUpdate, result.book);
+
+            return NoContent();//204
 
         }
 

@@ -17,3 +17,4 @@ C:\Users\suley\Documents\projects\BookStore\Presentation\obj\Debug\net8.0\Presen
 C:\Users\suley\Documents\projects\BookStore\Presentation\obj\Debug\net8.0\refint\Presentation.dll
 C:\Users\suley\Documents\projects\BookStore\Presentation\obj\Debug\net8.0\Presentation.pdb
 C:\Users\suley\Documents\projects\BookStore\Presentation\obj\Debug\net8.0\ref\Presentation.dll
+C:\Users\suley\Documents\projects\BookStore\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json

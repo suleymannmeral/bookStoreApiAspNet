@@ -18,6 +18,8 @@ namespace Services.Contracts
 
         (BookDtoForUpdate bookDtoForUpdate, Book book) GetOneBookForPatch(int id, bool trachChanges);
 
+        void SaveChangesForPatch(BookDtoForUpdate bookDtoForUpdate, Book book);
+
 
     }
 }

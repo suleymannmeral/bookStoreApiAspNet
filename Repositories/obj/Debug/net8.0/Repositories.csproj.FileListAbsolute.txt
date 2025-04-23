@@ -13,3 +13,4 @@ C:\Users\suley\Documents\projects\BookStore\Repositories\obj\Debug\net8.0\Reposi
 C:\Users\suley\Documents\projects\BookStore\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 C:\Users\suley\Documents\projects\BookStore\Repositories\obj\Debug\net8.0\Repositories.pdb
 C:\Users\suley\Documents\projects\BookStore\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+C:\Users\suley\Documents\projects\BookStore\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json

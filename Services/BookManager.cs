@@ -31,8 +31,10 @@ namespace Services
         public BookDto CreateBook(BookDtoForInsertion bookDto)
         {
             var entity = _mapper.Map<Book>(bookDto); // 1. DTO → Entity çevirimi
+
             _manager.BookRepository.Create(entity);   // 2. Entity veritabanına ekleniyor
             _manager.Save();                          // 3. Değişiklikler kaydediliyor
+
             return _mapper.Map<BookDto>(entity);      // 4. Entity → DTO çevirimi (dönüş)
         }
 
@@ -40,8 +42,9 @@ namespace Services
       
         public void DeleteOneBook(int id, bool trackChanges)
         {
-            // check entity
+            
             var entity = _manager.BookRepository.GetOneBookById(id,trackChanges);
+            // check entity
             if (entity is null)
                 throw new BookNotFoundException(id);    
             
@@ -53,14 +56,17 @@ namespace Services
         public IEnumerable<BookDto> GetAllBooks(bool trackChanges)
         {
             var books =_manager.BookRepository.GetAllBooks(trackChanges);
+
             return _mapper.Map<IEnumerable<BookDto>>(books);
         }
 
         public BookDto GetOneBookById(int id, bool trackChanges)
         {
             var book = _manager.BookRepository.GetOneBookById(id,trackChanges);
+
             if (book is null)
                 throw new BookNotFoundException(id);
+
             return _mapper.Map<BookDto>(book);
         }
 
@@ -71,9 +77,17 @@ namespace Services
             if (book is null)
                 throw new BookNotFoundException(id);
 
-            
+            var bookDtoForUpdate = _mapper.Map<BookDtoForUpdate>(book);
+
+            return (bookDtoForUpdate, book);
 
 
+        }
+
+        public void SaveChangesForPatch(BookDtoForUpdate bookDtoForUpdate, Book book)
+        {
+            _mapper.Map(bookDtoForUpdate, book);
+            _manager.Save();
         }
 
         public void UpdateOneBook(int id, BookDtoForUpdate bookDto, bool trackChanges)
