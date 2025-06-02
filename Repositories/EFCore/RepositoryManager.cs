@@ -21,9 +21,9 @@ namespace Repositories.EFCore
         public IBookRepository BookRepository => _bookRepository.Value;
 
         // book repositoryi sadece istenilen zamanda newleme işlemi ypaıyoruz bu yüzden lazyloading kullandık
-        public void Save()
+        public async Task SaveAsync()
         {
-           _repositoryContext.SaveChanges();
+           await _repositoryContext.SaveChangesAsync();
         }
     }
 }

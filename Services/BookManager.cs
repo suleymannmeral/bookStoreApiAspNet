@@ -28,89 +28,79 @@ namespace Services
             _mapper = mapper;
         }
 
-        public BookDto CreateBook(BookDtoForInsertion bookDto)
+        public async Task<BookDto> CreateBookAsync(BookDtoForInsertion bookDto)
         {
             var entity = _mapper.Map<Book>(bookDto); // 1. DTO → Entity çevirimi
 
             _manager.BookRepository.Create(entity);   // 2. Entity veritabanına ekleniyor
-            _manager.Save();                          // 3. Değişiklikler kaydediliyor
+
+            await _manager.SaveAsync();                          // 3. Değişiklikler kaydediliyor
 
             return _mapper.Map<BookDto>(entity);      // 4. Entity → DTO çevirimi (dönüş)
         }
 
-
-      
-        public void DeleteOneBook(int id, bool trackChanges)
+        public async Task DeleteOneBookAsync(int id, bool trackChanges)
         {
-            
-            var entity = _manager.BookRepository.GetOneBookById(id,trackChanges);
-            // check entity
-            if (entity is null)
-                throw new BookNotFoundException(id);    
-            
+            var entity = await GetOneBookByIdAndCheckExist(id,trackChanges);
             _manager.BookRepository.Delete(entity);
-            _manager.Save();
+            await _manager.SaveAsync();
 
         }
 
-        public IEnumerable<BookDto> GetAllBooks(bool trackChanges)
+        public async Task<IEnumerable<BookDto>> GetAllBooksAsync(bool trackChanges)
         {
-            var books =_manager.BookRepository.GetAllBooks(trackChanges);
+            var books = await _manager.BookRepository.GetAllBooksAsync(trackChanges);
 
             return _mapper.Map<IEnumerable<BookDto>>(books);
         }
 
-        public BookDto GetOneBookById(int id, bool trackChanges)
+        public async  Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
         {
-            var book = _manager.BookRepository.GetOneBookById(id,trackChanges);
-
-            if (book is null)
-                throw new BookNotFoundException(id);
+            var book = await GetOneBookByIdAndCheckExist(id, trackChanges); 
 
             return _mapper.Map<BookDto>(book);
         }
 
-        public (BookDtoForUpdate bookDtoForUpdate, Book book) GetOneBookForPatch(int id, bool trachChanges)
+        public async Task<(BookDtoForUpdate bookDtoForUpdate, Book book)> GetOneBookForPatchAsync(int id, bool trachChanges)
         {
-            var book =_manager.BookRepository.GetOneBookById(id, trachChanges);
-
-            if (book is null)
-                throw new BookNotFoundException(id);
-
+            var book = await GetOneBookByIdAndCheckExist(id, trachChanges);
             var bookDtoForUpdate = _mapper.Map<BookDtoForUpdate>(book);
-
             return (bookDtoForUpdate, book);
 
-
         }
 
-        public void SaveChangesForPatch(BookDtoForUpdate bookDtoForUpdate, Book book)
+        public async Task SaveChangesForPatch(BookDtoForUpdate bookDtoForUpdate, Book book)
         {
             _mapper.Map(bookDtoForUpdate, book);
-            _manager.Save();
+            await _manager.SaveAsync();
         }
 
-        public void UpdateOneBook(int id, BookDtoForUpdate bookDto, bool trackChanges)
+        public async Task UpdateOneBookAsync(int id, BookDtoForUpdate bookDto, bool trackChanges)
         {
-            // check entity
+            var entity = await GetOneBookByIdAndCheckExist(id, trackChanges);
+            entity = _mapper.Map<Book>(bookDto);
+            _manager.BookRepository.Update(entity);
+            await _manager.SaveAsync();
+        }
 
-            var entity = _manager.BookRepository.GetOneBookById(id, trackChanges);
+        private async Task<Book> GetOneBookByIdAndCheckExist(int id, bool trackChanges)
+        {
+
+            var entity = await _manager.BookRepository.GetOneBookByIdAsync(id, trackChanges);
+
             if (entity is null)
                 throw new BookNotFoundException(id);
 
-            //Mapping Requestten gelen body ile eşleşme yapıyoruz. Onlarca propumuz olabilir o yüzden manuel oalrak eşlemek yerine
-            // Otomatik gerçekleştireceğiz
-            //entity.Title = book.Title;
-            //entity.Price = book.Price;
-
-            // Mapping otomatik oalrak gerçekelşyior
-            entity = _mapper.Map<Book>(bookDto);
-
-            _manager.BookRepository.Update(entity);
-            _manager.Save();
-
+            return entity;
         }
 
        
     }
 }
+
+//Mapping Requestten gelen body ile eşleşme yapıyoruz. Onlarca propumuz olabilir o yüzden manuel oalrak eşlemek yerine
+// Otomatik gerçekleştireceğiz
+//entity.Title = book.Title;
+//entity.Price = book.Price;
+
+// Mapping otomatik oalrak gerçekelşyior

@@ -132,12 +132,6 @@ C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\scopedcss\bu
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApi.props
-C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
-C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApi.props
-C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.csproj.Up2Date
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.dll
@@ -166,3 +160,5 @@ C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\NLog.Extensi
 C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
+C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\DiscordRPC.dll
