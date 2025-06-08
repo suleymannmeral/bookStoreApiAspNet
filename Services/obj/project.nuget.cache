@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nPZ01MOHEFM=",
+  "dgSpecHash": "aD32V12wovU=",
   "success": true,
   "projectFilePath": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -20,7 +20,8 @@
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\nlog\\5.4.0\\nlog.5.4.0.nupkg.sha512",
-    "C:\\Users\\suley\\.nuget\\packages\\nlog.extensions.logging\\5.4.0\\nlog.extensions.logging.5.4.0.nupkg.sha512"
+    "C:\\Users\\suley\\.nuget\\packages\\nlog.extensions.logging\\5.4.0\\nlog.extensions.logging.5.4.0.nupkg.sha512",
+    "C:\\Users\\suley\\.nuget\\packages\\system.linq.dynamic.core\\1.6.5\\system.linq.dynamic.core.1.6.5.nupkg.sha512"
   ],
   "logs": []
 }

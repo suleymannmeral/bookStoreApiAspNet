@@ -162,3 +162,4 @@ C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\AutoMapper.E
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\DiscordRPC.dll
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll

@@ -122,3 +122,4 @@
 2025-06-08 20:07:04.4851 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-06-08T17:07:04.4850047Z"}
 2025-06-08 20:07:33.6187 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-06-08T17:07:33.6186433Z"}
 2025-06-08 20:07:42.4125 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-06-08T17:07:42.4124824Z"}
+2025-06-08 20:57:18.3644 INFO {"ModelName":"OnActionExecuting","Controller":"Books","Action":"GetAllBooks","Id":null,"CreateAt":"2025-06-08T17:57:18.342269Z"}
