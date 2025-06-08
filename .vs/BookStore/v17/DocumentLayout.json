@@ -58,8 +58,7 @@
               "RelativeToolTip": "Entities\\LogModel\\LogDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T17:15:29.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T17:15:29.734Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "Entities\\RequestFeatures\\RequestParameters.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T16:54:51.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T16:54:51.569Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "Repositories\\EFCore\\RepositoryManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T07:09:00.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T07:09:00.447Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Entities\\RequestFeatures\\BookParameters.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T06:53:31.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T06:53:31.135Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "Repositories\\EFCore\\BookRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T06:46:04.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T06:46:04.253Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "Services\\BookManager.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAWwDwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T06:41:39.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T06:41:39.619Z"
             }
           ]
         }
