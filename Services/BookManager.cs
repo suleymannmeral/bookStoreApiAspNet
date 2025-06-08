@@ -11,6 +11,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using static Entities.Exceptions.BadRequestException;
 
 namespace Services
 {
@@ -48,11 +49,15 @@ namespace Services
 
         }
 
-        public async Task<IEnumerable<BookDto>> GetAllBooksAsync(BookParameters bookParameters, bool trackChanges)
+        public async Task<(IEnumerable<BookDto> books, MetaData metaData)> GetAllBooksAsync(BookParameters bookParameters, bool trackChanges)
         {
-            var books = await _manager.BookRepository.GetAllBooksAsync(bookParameters,trackChanges);
+            if (!bookParameters.ValidPriceRange)
+                throw new PriceOutOfRangeBadException();
 
-            return _mapper.Map<IEnumerable<BookDto>>(books);
+            var booksWithMetaData = await _manager.BookRepository.GetAllBooksAsync(bookParameters,trackChanges);
+
+            var booksDto=_mapper.Map<IEnumerable<BookDto>>(booksWithMetaData);
+            return(booksDto,booksWithMetaData.MetaData);
         }
 
         public async  Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
