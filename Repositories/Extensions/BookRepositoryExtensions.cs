@@ -36,37 +36,8 @@ namespace Repositories.Extensions
             if(string.IsNullOrEmpty(orderByQueryString))
                 return books.OrderBy(b => b.Id);
 
-            var orderParams=orderByQueryString.Trim().Split(',');
-
-            var propertyInfos=typeof(Book)
-                .GetProperties(BindingFlags.Public | BindingFlags.Instance);
-
-            var orderQueryBuilder = new StringBuilder();
-
-            // title ascending, price descending, id descending,
-
-            foreach(var param in orderParams)
-            {
-                if (string.IsNullOrWhiteSpace(param))
-                    continue;
-                var propertyFromQuery= param.Split(' ')[0];
-                
-                var objectProperty=propertyInfos
-                    .FirstOrDefault(pi=>pi.Name.Equals(propertyFromQuery,
-                    StringComparison.InvariantCultureIgnoreCase
-                    ));
-
-                if(objectProperty is null)
-                    continue;
-
-                var direction = param.EndsWith(" desc") ? "descending" : "ascending";
-
-                orderQueryBuilder.Append($"{objectProperty.Name.ToString()} {direction},");
-
-
-            }
-
-            var orderQuery = orderByQueryString.ToString().TrimEnd(',', ' ');
+            var orderQuery=OrderQueryBuilder
+                .CreateOrderQuery<Book>(orderByQueryString);
 
             if (orderQuery is null)
                 return books.OrderBy(b => b.Id);
