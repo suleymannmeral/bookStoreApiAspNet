@@ -126,7 +126,6 @@ C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.Gener
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.AssemblyInfoInputs.cache
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.AssemblyInfo.cs
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.csproj.CoreCompileInputs.cache
-C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\scopedcss\bundle\WebApi.styles.css
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets.build.json
@@ -163,3 +162,6 @@ C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.sourc
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\DiscordRPC.dll
 C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Marvin.Cache.Headers.dll

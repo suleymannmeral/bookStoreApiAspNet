@@ -10,6 +10,7 @@
         "dependencies": {
           "DiscordRichPresence": "1.2.1.24",
           "Entities": "1.0.0",
+          "Microsoft.AspNetCore.Routing": "2.3.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.13",
           "Presentation": "1.0.0",
@@ -96,6 +97,14 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Marvin.Cache.Headers/7.2.0": {
+        "runtime": {
+          "lib/net8.0/Marvin.Cache.Headers.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.0.0"
           }
         }
       },
@@ -212,6 +221,14 @@
           "lib/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
             "assemblyVersion": "8.0.13.0",
             "fileVersion": "8.0.1325.6610"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Versioning/5.1.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Mvc.Versioning.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.8270.41513"
           }
         }
       },
@@ -1220,6 +1237,9 @@
         }
       },
       "Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.3.0"
+        },
         "runtime": {
           "Entities.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -1229,9 +1249,11 @@
       },
       "Presentation/1.0.0": {
         "dependencies": {
+          "Marvin.Cache.Headers": "7.2.0",
           "Microsoft.AspNetCore.JsonPatch": "9.0.3",
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.13",
+          "Microsoft.AspNetCore.Mvc.Versioning": "5.1.0",
           "Newtonsoft.Json": "13.0.3",
           "Services": "1.0.0"
         },
@@ -1258,6 +1280,7 @@
       "Services/1.0.0": {
         "dependencies": {
           "Entities": "1.0.0",
+          "Microsoft.AspNetCore.Routing": "2.3.0",
           "NLog.Extensions.Logging": "5.4.0",
           "Repositories": "1.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
@@ -1318,6 +1341,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Marvin.Cache.Headers/7.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Oth02BbD/kYpv/lbH8wHUIn4PR5Gf2r8Ff43NBFxfGYnS257++bsgKxic/24lqOLkyaS2oPcZ+P2pxIbk5tjwA==",
+      "path": "marvin.cache.headers/7.2.0",
+      "hashPath": "marvin.cache.headers.7.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
       "type": "package",
@@ -1416,6 +1446,13 @@
       "sha512": "sha512-a0taGyYyRA/CZj8Iw2IJYqOyOO5BaZbHgqLXfxF3+xsr5un0XqRtrsR5PApSQX4fIvZSqm+9WLUjFyYryLb+Sw==",
       "path": "microsoft.aspnetcore.mvc.newtonsoftjson/8.0.13",
       "hashPath": "microsoft.aspnetcore.mvc.newtonsoftjson.8.0.13.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.Versioning/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UX8w9BlCiZpr6Ox4YAve1w0CkI1CAovukGNzKd7v0+5pZc8lzuG5tRovucr1RWIKHs0E/Yx8563CN7KzaB3bpw==",
+      "path": "microsoft.aspnetcore.mvc.versioning/5.1.0",
+      "hashPath": "microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.ResponseCaching.Abstractions/2.3.0": {
       "type": "package",

@@ -1,5 +1,22 @@
 [
   {
+    "ContainingType": "Presentation.Controllers.RootController",
+    "Method": "GetRoot",
+    "RelativePath": "api",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Accept",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetRoot"
+  },
+  {
     "ContainingType": "Presentation.Controllers.BooksController",
     "Method": "GetAllBooksAsync",
     "RelativePath": "api/books",
@@ -48,11 +65,63 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllBooksAsync"
+  },
+  {
+    "ContainingType": "Presentation.Controllers.BooksController",
+    "Method": "GetAllBooksAsync",
+    "RelativePath": "api/books",
+    "HttpMethod": "HEAD",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MinPrice",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaxPrice",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ValidPriceRange",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Fields",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
     "ContainingType": "Presentation.Controllers.BooksController",
-    "Method": "AddBookAsync",
+    "Method": "CreateBookAsync",
     "RelativePath": "api/books",
     "HttpMethod": "POST",
     "IsController": true,
@@ -64,6 +133,27 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateBookAsync"
+  },
+  {
+    "ContainingType": "Presentation.Controllers.BooksController",
+    "Method": "GetBooksOptions",
+    "RelativePath": "api/books",
+    "HttpMethod": "OPTIONS",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Presentation.Controllers.BooksV2Controller",
+    "Method": "GetAllBooksAsync",
+    "RelativePath": "api/books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -134,7 +224,7 @@
       },
       {
         "Name": "bookPatch",
-        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "Type": "Microsoft.AspNetCore.JsonPatch.JsonPatchDocument\u00601[[Entities.DataTransferObjects.BookDtoForUpdate, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

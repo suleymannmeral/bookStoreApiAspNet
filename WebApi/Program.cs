@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using NLog;
 using Presentation.ActionFilters;
 using Repositories.EFCore;
+using Services;
 using Services.Contracts;
 using WebApi.Extensions;
 
@@ -14,12 +15,12 @@ builder.Services.AddControllers(config =>
 {
     config.RespectBrowserAcceptHeader = false; // içerik pazarlığına açığız yani xml,csv gibi istekleri de kabul edebilir
     config.ReturnHttpNotAcceptable = true;
+    config.CacheProfiles.Add("5mins",new CacheProfile() { Duration=300});
 
 }
 )
-    .AddNewtonsoftJson()
-    .AddCustomCsvFormatter()
     .AddXmlDataContractSerializerFormatters()  //Xml  dönüşü yapabilir artık
+    .AddCustomCsvFormatter()
     .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
 
 builder.Services.AddScoped<ValidationFilterAttribute>();
@@ -49,6 +50,12 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.ConfigureActionFilters();
 builder.Services.ConfigureCors();
 builder.Services.ConfigureDataShaper();
+builder.Services.AddCustomMediaTypes();
+builder.Services.AddScoped<IBookLinks, BookLinks>();
+builder.Services.ConfigureVersioning();
+builder.Services.ConfigureResponseCaching();
+builder.Services.ConfigureHttpCacheHeaders();
+
 var app = builder.Build();
 
 var logger = app.Services.GetRequiredService<ILoggerService>();
@@ -69,6 +76,8 @@ if(app.Environment.IsProduction())
 app.UseHttpsRedirection();
 
 app.UseCors("CorsPolicy");
+app.UseResponseCaching();  
+app.UseHttpCacheHeaders();
 
 app.UseAuthorization();
 

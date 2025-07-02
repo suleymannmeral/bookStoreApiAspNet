@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hTUbdOZBPDQ=",
+  "dgSpecHash": "nsV2izNNrcY=",
   "success": true,
   "projectFilePath": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\suley\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\discordrichpresence\\1.2.1.24\\discordrichpresence.1.2.1.24.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\suley\\.nuget\\packages\\marvin.cache.headers\\7.2.0\\marvin.cache.headers.7.2.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.3.0\\microsoft.aspnetcore.authentication.core.2.3.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.3.0\\microsoft.aspnetcore.authorization.2.3.0.nupkg.sha512",
@@ -24,6 +25,7 @@
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.3.0\\microsoft.aspnetcore.mvc.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.3.0\\microsoft.aspnetcore.mvc.core.2.3.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\8.0.13\\microsoft.aspnetcore.mvc.newtonsoftjson.8.0.13.nupkg.sha512",
+    "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.responsecaching.abstractions\\2.3.0\\microsoft.aspnetcore.responsecaching.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.routing\\2.3.0\\microsoft.aspnetcore.routing.2.3.0.nupkg.sha512",
     "C:\\Users\\suley\\.nuget\\packages\\microsoft.aspnetcore.routing.abstractions\\2.3.0\\microsoft.aspnetcore.routing.abstractions.2.3.0.nupkg.sha512",

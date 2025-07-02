@@ -10,6 +10,79 @@
         "tags": [
           "Books"
         ],
+        "operationId": "GetAllBooksAsync",
+        "parameters": [
+          {
+            "name": "MinPrice",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "MaxPrice",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ValidPriceRange",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "searchTerm",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "PageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "PageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "OrderBy",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Fields",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "head": {
+        "tags": [
+          "Books"
+        ],
         "parameters": [
           {
             "name": "MinPrice",
@@ -82,13 +155,9 @@
         "tags": [
           "Books"
         ],
+        "operationId": "CreateBookAsync",
         "requestBody": {
           "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/BookDtoForInsertion"
-              }
-            },
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/BookDtoForInsertion"
@@ -121,6 +190,16 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "options": {
+        "tags": [
+          "Books"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -167,11 +246,6 @@
         ],
         "requestBody": {
           "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "$ref": "#/components/schemas/BookDtoForUpdate"
-              }
-            },
             "application/json": {
               "schema": {
                 "$ref": "#/components/schemas/BookDtoForUpdate"
@@ -248,64 +322,51 @@
         ],
         "requestBody": {
           "content": {
-            "application/json-patch+json": {
-              "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Operation"
-                }
-              }
-            },
             "application/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Operation"
-                }
+                "$ref": "#/components/schemas/BookDtoForUpdateJsonPatchDocument"
               }
             },
             "text/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Operation"
-                }
+                "$ref": "#/components/schemas/BookDtoForUpdateJsonPatchDocument"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Operation"
-                }
+                "$ref": "#/components/schemas/BookDtoForUpdateJsonPatchDocument"
               }
             },
             "application/xml": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Operation"
-                }
+                "$ref": "#/components/schemas/BookDtoForUpdateJsonPatchDocument"
               }
             },
             "text/xml": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Operation"
-                }
+                "$ref": "#/components/schemas/BookDtoForUpdateJsonPatchDocument"
               }
             },
             "application/*+xml": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/components/schemas/Operation"
-                }
+                "$ref": "#/components/schemas/BookDtoForUpdateJsonPatchDocument"
               }
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api": {
+      "get": {
+        "tags": [
+          "Root"
+        ],
+        "operationId": "GetRoot",
         "responses": {
           "200": {
             "description": "OK"
@@ -363,7 +424,24 @@
         },
         "additionalProperties": false
       },
-      "Operation": {
+      "BookDtoForUpdateJsonPatchDocument": {
+        "type": "object",
+        "properties": {
+          "operations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BookDtoForUpdateOperation"
+            },
+            "nullable": true,
+            "readOnly": true
+          },
+          "contractResolver": {
+            "$ref": "#/components/schemas/IContractResolver"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BookDtoForUpdateOperation": {
         "type": "object",
         "properties": {
           "operationType": {
@@ -385,6 +463,10 @@
             "nullable": true
           }
         },
+        "additionalProperties": false
+      },
+      "IContractResolver": {
+        "type": "object",
         "additionalProperties": false
       },
       "OperationType": {
