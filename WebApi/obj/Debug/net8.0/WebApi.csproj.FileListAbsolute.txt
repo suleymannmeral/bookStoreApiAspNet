@@ -165,3 +165,4 @@ C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\System.Linq.
 C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Marvin.Cache.Headers.dll
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\AspNetCoreRateLimit.dll

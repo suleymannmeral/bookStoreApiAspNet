@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\suley\\Documents\\projects\\BookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,26 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T06:21:17.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ServicesExtensions.cs",
               "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\ServicesExtensions.cs",
               "RelativeDocumentMoniker": "WebApi\\Extensions\\ServicesExtensions.cs",
               "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\ServicesExtensions.cs",
               "RelativeToolTip": "WebApi\\Extensions\\ServicesExtensions.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAwwHYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAkwJsAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T06:19:48.467Z",
               "EditorCaption": ""
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Presentation\\Controllers\\BooksController.cs",
