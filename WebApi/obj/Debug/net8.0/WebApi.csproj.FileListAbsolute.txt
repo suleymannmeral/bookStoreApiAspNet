@@ -166,3 +166,8 @@ C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Microsoft.As
 C:\Users\suley\Documents\projects\BookStore\WebApi\obj\Debug\net8.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Marvin.Cache.Headers.dll
 C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\AspNetCoreRateLimit.dll
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\suley\Documents\projects\BookStore\WebApi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
