@@ -60,6 +60,7 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddAuthentication(); // username and password middleware active  add tot pipeline
 builder.Services.ConfigureIdentity();
+builder.Services.ConfigureJwt(builder.Configuration);
 
 var app = builder.Build();
 

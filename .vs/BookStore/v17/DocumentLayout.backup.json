@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\suley\\Documents\\projects\\BookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Migrations\\20250705065012_AddRolesToDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApi\\Migrations\\20250705065012_AddRolesToDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\authenticationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\authenticationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\efcore\\config\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\config\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\booklinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\booklinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +27,60 @@
       "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\datatransferobjects\\userforauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\datatransferobjects\\userforauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\efcore\\config\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\config\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\efcore\\config\\bookconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\config\\bookconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C13F1-625A-48C6-B68A-C8AE46414538}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\concrete\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\concrete\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\contracts\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\utilities\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\utilities\\automapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\datatransferobjects\\userforregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\datatransferobjects\\userforregistiration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\services\\booklinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BC77FB-8A84-4CEB-A734-04E04F0C4316}|Services\\Services.csproj|solutionrelative:services\\booklinks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2702A22A-69A4-4D88-A009-8750C934020F}|Entities\\Entities.csproj|solutionrelative:entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BCCE4CE-8F90-4231-A9AF-F48820B3D19C}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\migrations\\20250705065012_addrolestodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\20250705065012_addrolestodatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|c:\\users\\suley\\documents\\projects\\bookstore\\webapi\\migrations\\20250705083151_mgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCC563E3-3103-4161-BF79-2F7C48AB6827}|WebApi\\WebApi.csproj|solutionrelative:webapi\\migrations\\20250705083151_mgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,68 +106,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
               "Title": "20250705065012_AddRolesToDatabase.cs",
               "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Migrations\\20250705065012_AddRolesToDatabase.cs",
               "RelativeDocumentMoniker": "WebApi\\Migrations\\20250705065012_AddRolesToDatabase.cs",
               "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Migrations\\20250705065012_AddRolesToDatabase.cs",
               "RelativeToolTip": "WebApi\\Migrations\\20250705065012_AddRolesToDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T06:50:13.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T06:50:13.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "RoleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\Config\\RoleConfiguration.cs",
               "RelativeDocumentMoniker": "Repositories\\EFCore\\Config\\RoleConfiguration.cs",
               "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\Config\\RoleConfiguration.cs",
               "RelativeToolTip": "Repositories\\EFCore\\Config\\RoleConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T06:43:14.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookLinks.cs",
-              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\BookLinks.cs",
-              "RelativeDocumentMoniker": "Services\\BookLinks.cs",
-              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\BookLinks.cs",
-              "RelativeToolTip": "Services\\BookLinks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T06:34:46.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RepositoryContext.cs",
-              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\RepositoryContext.cs",
-              "RelativeDocumentMoniker": "Repositories\\EFCore\\RepositoryContext.cs",
-              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\RepositoryContext.cs",
-              "RelativeToolTip": "Repositories\\EFCore\\RepositoryContext.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T06:19:39.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Models\\User.cs",
-              "RelativeToolTip": "Entities\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T06:16:14.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T06:43:14.73Z"
             },
             {
               "$type": "Document",
@@ -133,9 +136,48 @@
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEIAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T06:21:17.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IAuthenticationService.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\IAuthenticationService.cs",
+              "RelativeToolTip": "Services\\Contracts\\IAuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T07:46:35.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationManager.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\AuthenticationManager.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationManager.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\AuthenticationManager.cs",
+              "RelativeToolTip": "Services\\AuthenticationManager.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAASwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T07:49:17.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwDgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T06:16:35.516Z",
               "EditorCaption": ""
             },
             {
@@ -146,14 +188,159 @@
               "RelativeDocumentMoniker": "WebApi\\Extensions\\ServicesExtensions.cs",
               "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\ServicesExtensions.cs",
               "RelativeToolTip": "WebApi\\Extensions\\ServicesExtensions.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAA0wKsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAADwv5UAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T06:19:48.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T08:08:48.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "RelativeToolTip": "WebApi\\Utilities\\AutoMapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T07:00:32.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserForAuthentication.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\UserForAuthentication.cs",
+              "RelativeDocumentMoniker": "Entities\\DataTransferObjects\\UserForAuthentication.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\UserForAuthentication.cs",
+              "RelativeToolTip": "Entities\\DataTransferObjects\\UserForAuthentication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T13:26:31.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookConfig.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\Config\\BookConfig.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\Config\\BookConfig.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\Config\\BookConfig.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\Config\\BookConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T08:28:31.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250705083151_mgs.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Migrations\\20250705083151_mgs.cs",
+              "RelativeDocumentMoniker": "WebApi\\Migrations\\20250705083151_mgs.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Migrations\\20250705083151_mgs.cs",
+              "RelativeToolTip": "WebApi\\Migrations\\20250705083151_mgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T08:31:52.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-05T10:03:45.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserForRegistiration.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\UserForRegistiration.cs",
+              "RelativeDocumentMoniker": "Entities\\DataTransferObjects\\UserForRegistiration.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\DataTransferObjects\\UserForRegistiration.cs",
+              "RelativeToolTip": "Entities\\DataTransferObjects\\UserForRegistiration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T06:55:43.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookLinks.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\BookLinks.cs",
+              "RelativeDocumentMoniker": "Services\\BookLinks.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\BookLinks.cs",
+              "RelativeToolTip": "Services\\BookLinks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T06:34:46.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\RepositoryContext.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Repositories\\EFCore\\RepositoryContext.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\RepositoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T06:19:39.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Contracts\\IServiceManager.cs",
+              "RelativeToolTip": "Services\\Contracts\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T07:59:48.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Concrete\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\Concrete\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Services\\Concrete\\ServiceManager.cs",
+              "RelativeToolTip": "Services\\Concrete\\ServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T08:00:17.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Entities\\Models\\User.cs",
+              "RelativeToolTip": "Entities\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T06:16:14.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "ExceptionMiddlewareExtensions.cs",
               "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\WebApi\\Extensions\\ExceptionMiddlewareExtensions.cs",
               "RelativeDocumentMoniker": "WebApi\\Extensions\\ExceptionMiddlewareExtensions.cs",
@@ -161,21 +348,7 @@
               "RelativeToolTip": "WebApi\\Extensions\\ExceptionMiddlewareExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:19:46.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\suley\\Documents\\projects\\BookStore\\Presentation\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:16:35.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T06:19:46.019Z"
             }
           ]
         }

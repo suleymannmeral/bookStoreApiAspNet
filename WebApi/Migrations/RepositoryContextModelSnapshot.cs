@@ -44,8 +44,8 @@ namespace WebApi.Migrations
                         new
                         {
                             Id = 1,
-                            Price = 6m,
-                            Title = "Beyza"
+                            Price = 50m,
+                            Title = "Araba Sevdası"
                         },
                         new
                         {
@@ -57,7 +57,7 @@ namespace WebApi.Migrations
                         {
                             Id = 3,
                             Price = 350m,
-                            Title = "Ankara'yı Yaşamak"
+                            Title = "Yaban"
                         });
                 });
 
@@ -161,19 +161,19 @@ namespace WebApi.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "0d1e79d4-567c-4173-85f9-07c41205779e",
+                            Id = "cad1e163-8f3d-4718-b3f5-5114b276045a",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "6436d270-fd61-4479-a5ec-725fca6a4a57",
+                            Id = "06032a14-a10e-461c-bdbd-debdcd187cef",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
                         },
                         new
                         {
-                            Id = "7efd823c-3506-4f57-b0a1-c57b2fb3fb73",
+                            Id = "0bbfdeff-c91c-4078-a4e6-9aa5b8a707c8",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
