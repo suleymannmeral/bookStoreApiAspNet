@@ -20,3 +20,5 @@
 
 ## POSTMAN Koleksiyon Linki:
 https://www.postman.com/shepidi/workspace/asp-net-core-book-store-api
+
+<img width="1735" height="808" alt="image" src="https://github.com/user-attachments/assets/a1049b70-c222-47ec-b2d6-9a6ac16fb14b" />
