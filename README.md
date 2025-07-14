@@ -1,69 +1,71 @@
-# 📚 Book Store 
+# 📚 Book Store API Projesi
 
-Bu proje ASP.NET Core WEB API kursu bünyesinde geliştirilen bir API projesidir.
+Bu proje, **ASP.NET Core WEB API** kursu kapsamında geliştirilen, katmanlı mimariye sahip bir API uygulamasıdır.
 
-
-
+---
 
 ## 🛠 Kullanılan Teknolojiler
 
-| Teknoloji              | Açıklama                                              |
-|------------------------|--------------------------------------------------------|
-| **ASP.NET Core Web API** | Projenin backend altyapısı                            |
-| **MSSQL**              | Veritabanı yönetimi için                              |
-| **Entity Framework Core** | ORM aracı olarak                                     |
-| **Identity + JWT**     | Kimlik doğrulama ve yetkilendirme işlemleri için      |
-| **Postman -  Swagger**            | API testleri ve dokümantasyonu                        |
+| Teknoloji               | Açıklama                                             |
+|------------------------|-----------------------------------------------------|
+| **ASP.NET Core Web API**| Projenin backend altyapısı                           |
+| **MSSQL**               | Veritabanı yönetimi için                             |
+| **Entity Framework Core**| ORM aracı olarak                                    |
+| **Identity + JWT**      | Kimlik doğrulama ve yetkilendirme işlemleri için    |
+| **Postman & Swagger**   | API testleri ve dokümantasyonu için                  |
 
 ---
 
 ## 🧱 Katmanlar
 
-Bu projede Clean Architecture yapısı temel alınarak katmanlı bir mimari benimsenmiştir. Her bir katman belirli bir sorumluluğu yerine getirmek üzere yapılandırılmıştır:
+Projede **Clean Architecture** yapısı temel alınmış olup, katmanlar şu şekildedir:
 
-| Katman Adı           
+| Katman Adı           |
 |----------------------|
-| **Entities** |
-| **Presentation** |
-| **Services** |
-| **Repositories** |
-| **WEBAPI Katmanı**|
+| **Entities**         |
+| **Presentation**     |
+| **Services**         |
+| **Repositories**     |
+| **WEBAPI Katmanı**   |
 
-## Architecture & Design Patterns
+---
 
-| Desen Adı          | Açıklama                                                                                               |
-|--------------------|------------------------------------------------------------------------------------------------------|
-| **Repository Pattern** | Veri erişimini soyutlayarak, veri katmanının yönetimini kolaylaştırır ve uygulamadan bağımsız kılar.  |
-| **Dependency Injection** | Bağımlılıkların dışarıdan verilmesini sağlayarak, kodun test edilebilirliğini ve esnekliğini artırır.  |
-| **Unit of Work**       | Birden fazla repository işlemini tek bir işlem olarak yönetmeyi sağlar (SaveChanges).           |
+## 🏗 Architecture & Design Patterns
 
+| Desen Adı             | Açıklama                                                                                             |
+|-----------------------|----------------------------------------------------------------------------------------------------|
+| **Repository Pattern** | Veri erişimini soyutlayarak, veri katmanının yönetimini kolaylaştırır ve uygulamadan bağımsız kılar.|
+| **Dependency Injection** | Bağımlılıkların dışarıdan verilmesini sağlayarak, kodun test edilebilirliğini ve esnekliğini artırır.|
+| **Unit of Work**       | Birden fazla repository işlemini tek bir işlem olarak yönetmeyi sağlar (SaveChanges).               |
 
+---
 
-| Özellikler              | Açıklama                                              |
-|------------------------|--------------------------------------------------------|
-| **HATEOAS** |HATEOAS (Hypermedia as the Engine of Application State), istemcinin API ile nasıl etkileşime geçeceğini linklerle yönlendirme.                      |
-| **Caching**              | Caching, API yanıtlarının tekrar kullanılarak performansı artırmasını ve sunucu yükünün azaltılmasını sağlayan bir tekniktir.                              |
-| **Rate Limiting** |API’ye yapılan istek sayısı belirli bir zaman diliminde sınırlanmıştır. .                               |
-| **Nlog**     | Loglama işlemleri |
-| **Versioning**            | Versiyonlama               |
+## ⚙️ API Özellikleri
 
-# API Workspace Doküman Linkleri
+| Özellik           | Açıklama                                                                                       |
+|-------------------|-----------------------------------------------------------------------------------------------|
+| **HATEOAS**       | İstemcinin API ile nasıl etkileşime geçeceğini linklerle yönlendiren REST prensibidir.          |
+| **Caching**       | API yanıtlarının tekrar kullanılarak performansı artırır ve sunucu yükünü azaltır.             |
+| **Rate Limiting** | Belirli zaman diliminde API’ye yapılabilecek istek sayısını sınırlar, aşırı yüklenmeyi önler.  |
+| **NLog**          | .NET uygulamalarında loglama işlemleri için kullanılan güçlü bir kütüphane.                    |
+| **Versioning**    | API versiyonlaması ile geriye dönük uyumluluk ve geliştirme kolaylığı sağlar.                   |
 
-Aşağıda projemizde bulunan API workspace'lerinin Postman dokümanlarına ait linkler yer almaktadır:
+---
 
-| Workspace Adı | Postman Doküman Linki                                                                                      |
+## 📄 API Workspace Doküman Linkleri
+
+| Workspace Adı  | Postman Doküman Linki                                                                                      |
 |---------------|------------------------------------------------------------------------------------------------------------|
 | **Books**     | [Books API Dokümanı](https://documenter.getpostman.com/view/37005138/2sB34hEzUm#78156633-c077-4e58-a007-9bc0fdee5526)      |
 | **Categories**| [Categories API Dokümanı](https://documenter.getpostman.com/view/37005138/2sB34hEzZ6)                        |
-| **User**      | [User API Dokümanı](https://documenter.getpostman.com/view/37005138/2sB34hEzZ5)        
+| **User**      | [User API Dokümanı](https://documenter.getpostman.com/view/37005138/2sB34hEzZ5)                             |
 
-<img width="1901" height="950" alt="image" src="https://github.com/user-attachments/assets/513dcf56-6084-49ab-b5b6-1544ba8244d7" />
-|
-
+---
 
 ## 📌 Notlar
 
-- Kod yapısı `Clean Code` prensiplerine uygun olarak yazılmaya özen gösterilmiştir.
+- Kod yapısı **Clean Code** prensiplerine uygun olarak yazılmıştır.
+- Proje geliştirilmeye ve iyileştirilmeye açıktır.
 
 ---
 
@@ -72,3 +74,4 @@ Aşağıda projemizde bulunan API workspace'lerinin Postman dokümanlarına ait 
 Her türlü soru, görüş veya öneriniz için bana GitHub üzerinden ulaşabilirsiniz.
 
 ---
+
