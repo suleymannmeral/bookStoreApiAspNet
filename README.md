@@ -46,7 +46,10 @@ Aşağıda projemizde bulunan API workspace'lerinin Postman dokümanlarına ait 
 |---------------|------------------------------------------------------------------------------------------------------------|
 | **Books**     | [Books API Dokümanı](https://documenter.getpostman.com/view/37005138/2sB34hEzUm#78156633-c077-4e58-a007-9bc0fdee5526)      |
 | **Categories**| [Categories API Dokümanı](https://documenter.getpostman.com/view/37005138/2sB34hEzZ6)                        |
-| **User**      | [User API Dokümanı](https://documenter.getpostman.com/view/37005138/2sB34hEzZ5)                             |
+| **User**      | [User API Dokümanı](https://documenter.getpostman.com/view/37005138/2sB34hEzZ5)        
+
+<img width="1901" height="950" alt="image" src="https://github.com/user-attachments/assets/513dcf56-6084-49ab-b5b6-1544ba8244d7" />
+|
 
 
 ## 📌 Notlar
