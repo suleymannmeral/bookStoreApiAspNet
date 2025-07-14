@@ -29,6 +29,15 @@ Bu projede Clean Architecture yapısı temel alınarak katmanlı bir mimari beni
 | **Repositories** |
 | **WEBAPI Katmanı**|
 
+## Architecture & Design Patterns
+
+| Desen Adı          | Açıklama                                                                                               |
+|--------------------|------------------------------------------------------------------------------------------------------|
+| **Repository Pattern** | Veri erişimini soyutlayarak, veri katmanının yönetimini kolaylaştırır ve uygulamadan bağımsız kılar.  |
+| **Dependency Injection** | Bağımlılıkların dışarıdan verilmesini sağlayarak, kodun test edilebilirliğini ve esnekliğini artırır.  |
+| **Unit of Work**       | Birden fazla repository işlemini tek bir işlem olarak yönetmeyi sağlar (SaveChanges).           |
+
+
 
 | Özellikler              | Açıklama                                              |
 |------------------------|--------------------------------------------------------|
