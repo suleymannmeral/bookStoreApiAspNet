@@ -45,9 +45,9 @@ Aşağıda projemizde bulunan API workspace'lerinin Postman dokümanlarına ait 
 | Workspace Adı | Postman Doküman Linki                                    |
 |---------------|----------------------------------------------------------|
 | **Books**     | [Books API Dokümanı]([https://www.postman.com/your-books-link](https://documenter.getpostman.com/view/37005138/2sB34hEzUm#78156633-c077-4e58-a007-9bc0fdee5526))      |
-| **User**      | [User API Dokümanı]([https://www.postman.com/your-auth-link](https://documenter.getpostman.com/view/37005138/2sB34hEzZ5))        |
-| **Categories**| [Categories API Dokümanı]([https://www.postman.com/your-categories-link](https://documenter.getpostman.com/view/37005138/2sB34hEzZ6)) |
-| **Users**     | [Users API Dokümanı]([https://www.postman.com/your-users-link](https://documenter.getpostman.com/view/37005138/2sB34hEzZ5))        |
+| **User**      | [User API Dokümanı](https://www.postman.com/your-auth-link](https://documenter.getpostman.com/view/37005138/2sB34hEzZ5))        |
+| **Categories**| [Categories API Dokümanı](https://www.postman.com/your-categories-link](https://documenter.getpostman.com/view/37005138/2sB34hEzZ6)) |
+| **Users**     | [Users API Dokümanı](https://www.postman.com/your-users-link](https://documenter.getpostman.com/view/37005138/2sB34hEzZ5))        |
 
 
 ## 📌 Notlar
